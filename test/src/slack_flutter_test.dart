@@ -6,7 +6,7 @@ import 'package:slack_flutter/slack_flutter.dart';
 void main() {
   group('SlackFlutter', () {
     test('can be instantiated', () {
-      expect(SlackFlutter(), isNotNull);
+      expect(SlackFlutter(authToken: '1'), isNotNull);
     });
   });
 }

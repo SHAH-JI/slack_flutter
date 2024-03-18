@@ -1,5 +1,5 @@
 name: slack_flutter
-description: A Very Good Project created by Very Good CLI.
+description: A package for Slack API
 version: 0.1.0+1
 publish_to: none
 
@@ -8,8 +8,10 @@ environment:
   flutter: "^3.19.0"
 
 dependencies:
+  dio: ^5.4.1
   flutter:
     sdk: flutter
+  retrofit: ^4.1.0
 
 dev_dependencies:
   flutter_test:

@@ -42,3 +42,8 @@ app.*.map.json
 
 # Test related
 coverage
+
+# FVM Version Cache
+.fvm/
+.fvmrc/
+.fvmrc
